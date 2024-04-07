@@ -18,5 +18,4 @@ public class Factorial {
 		return factorial * factorialRecursivo(factorial-1);
 	}
 	
-
 }
