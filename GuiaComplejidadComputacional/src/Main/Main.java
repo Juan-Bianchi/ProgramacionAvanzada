@@ -16,8 +16,12 @@ public class Main {
 		
 		Factorial factorial = new Factorial();
 		
-		System.out.println(factorial.factorialIterado(5));
-		System.out.println(factorial.factorialRecursivo(5));
+		System.out.println(factorial.factorialIterado(10));
+		long startTime = System.currentTimeMillis();
+		System.out.println(factorial.factorialRecursivo(10));
+		long endTime = System.currentTimeMillis();
+		long elapsedTime = endTime - startTime;
+    System.out.println("Tiempo transcurrido factorial recursivo: " + elapsedTime + " milisegundos");
 	}
 
 }

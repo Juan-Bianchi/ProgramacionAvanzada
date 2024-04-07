@@ -48,7 +48,7 @@ public class EntornoProgramacion {
 		}
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
-        System.out.println("Tiempo transcurrido divisiones: " + elapsedTime + " milisegundos");
+    System.out.println("Tiempo transcurrido divisiones: " + elapsedTime + " milisegundos");
 		return i;
 	}
 	
@@ -61,7 +61,7 @@ public class EntornoProgramacion {
 		}
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
-        System.out.println("Tiempo transcurrido asignaciones: " + elapsedTime + " milisegundos");
+    System.out.println("Tiempo transcurrido asignaciones: " + elapsedTime + " milisegundos");
 		return j;
 	}
 	
